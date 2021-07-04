@@ -1,0 +1,15 @@
+sudo yum -y install httpd
+
+sudo service httpd start
+
+cd /var/www/html
+
+<!DOCTYPE html>
+<html>
+     <head>
+          <title> Test Site</title>
+     </head>
+     <body>
+          This is my lightsail website
+     </body>
+</html>
